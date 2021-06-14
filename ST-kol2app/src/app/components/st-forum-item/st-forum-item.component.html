@@ -1,0 +1,12 @@
+<div class="card text-center border-dark mb-3" style="width: 20rem; height: 26rem; margin: 2rem;">
+    <img [src]="image" height="60%" width="100%" class="card-img-top">
+    <hr style="margin: 0; background-color: black; height: 1.5px;">
+    <div class="card-body">
+        <h4 class="card-title">
+            {{ title }}
+        </h4>
+        <a href="#" [routerLink]="['/forum/detail/'+ id]" class="btn btn-success">
+            Więcej szczegółów..
+        </a>
+    </div>
+</div>
